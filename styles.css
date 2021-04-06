@@ -15,6 +15,11 @@ img.logo {
   margin-left: 8vw;
 }
 
+.humbager_icon {
+  width: 30px;
+  height: 30px;
+}
+
 .nav-text {
   font-size: 18px;
   font-family: 'Roboto Condensed', sans-serif;
@@ -135,7 +140,8 @@ img.foot-logo {
 
 .cpyrtinfo {
   color: #807f84;
-  font-size: 14px;
+  font-size: 12px;
+  margin-left: 5px;
 }
 
 img.social-icon {
@@ -162,6 +168,10 @@ a.footer-link:hover {
 .last-links {
   border-right: 1px solid;
   border-color: #807f84;
+}
+
+.bottom-foot {
+  font-size: 14px;
 }
 
 @media only screen and (max-width: 768px) {

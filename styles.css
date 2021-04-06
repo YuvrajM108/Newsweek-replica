@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 
-
 header {
   display: flex;
   flex-direction: column;
@@ -25,7 +24,9 @@ img.logo {
   color: white;
 }
 
-p.side-link, .cat-text, .editions {
+p.side-link,
+.cat-text,
+.editions {
   font-weight: bold;
 }
 
@@ -46,10 +47,6 @@ a.subscribe {
   text-decoration: none;
 }
 
-a.subscribe {
-  color: black;
-}
-
 span.subButton {
   background-color: yellow;
   padding-left: 5px;
@@ -57,7 +54,9 @@ span.subButton {
   border-radius: 10px;
 }
 
-.categories, .topstories, .top-foot {
+.categories,
+.topstories,
+.top-foot {
   background-color: white;
   padding: 10px;
   border-bottom: 2px solid #f4f5f6;
@@ -136,24 +135,19 @@ a.footer-link:hover {
 
 .last-links {
   border-right: 1px solid;
-  border-color:  #807f84;
-}
-
-@media only screen and (max-width: 576px) {
-    
+  border-color: #807f84;
 }
 
 @media only screen and (max-width: 768px) {
-    img.logo {
-      margin-left: 0;
-    }
+  img.logo {
+    margin-left: 0;
+  }
 
-    .nav-text {
-      font-size: 0.8rem;
-    }
+  .nav-text {
+    font-size: 0.8rem;
+  }
 
-    .mid-cat {
-      border: none;
-    }
+  .mid-cat {
+    border: none;
+  }
 }
-

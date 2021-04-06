@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.redtopbar {
+  background-color: #ff0500;
+}
+
+img.logo {
+  width: 35vw;
+  margin-left: 8vw;
+}
+
+.nav-text {
+  font-size: 18px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.date {
+  color: white;
+}
+
+p.side-link, .cat-text, .editions {
+  font-weight: bold;
+}
+
+a.login {
+  display: inline;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a.login:hover {
+  color: white;
+}
+
+a.subscribe {
+  display: inline;
+  color: black;
+  text-decoration: none;
+}
+
+a.subscribe {
+  color: black;
+}
+
+span.subButton {
+  background-color: yellow;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+}
+
+.categories, .topstories, .top-foot {
+  background-color: white;
+  padding: 10px;
+  border-bottom: 2px solid #f4f5f6;
+}
+
+a.category {
+  color: black;
+  margin: 0 1vw 0 1vw;
+  text-decoration: none;
+  padding: 10px;
+}
+
+a.category:hover {
+  color: #ff0500;
+}
+
+.mid-cat {
+  border-left: 1px solid;
+  border-color: #807f84;
+}
+
+.search {
+  display: inline;
+  color: #807f84;
+  text-decoration: none;
+}
+
+.searchIcon {
+  width: 40px;
+}
+
+.trending {
+  font-weight: bold;
+  padding: 5px;
+}
+
+a.topstory {
+  color: #807f84;
+  text-decoration: none;
+  margin: 0 1.5vw 0 1.5vw;
+}
+
+a.topstory:hover {
+  color: #ff0500;
+}
+
+img.foot-logo {
+  width: 250px;
+}
+
+.cpyrtinfo {
+  color: #807f84;
+  font-size: 14px;
+}
+
+img.social-icon {
+  width: 25px;
+  height: 25px;
+  margin: 0 5px 0 5px;
+}
+
+p.editions {
+  color: #807f84;
+}
+
+a.footer-link {
+  color: #807f84;
+  margin: 0 5px 0 5px;
+  text-decoration: none;
+  padding: 0 10px 0 10px;
+}
+
+a.footer-link:hover {
+  color: black;
+}
+
+.last-links {
+  border-right: 1px solid;
+  border-color:  #807f84;
+}
+
+@media only screen and (max-width: 576px) {
+    
+}
+
+@media only screen and (max-width: 768px) {
+    img.logo {
+      margin-left: 0;
+    }
+
+    .nav-text {
+      font-size: 0.8rem;
+    }
+
+    .mid-cat {
+      border: none;
+    }
+}
+

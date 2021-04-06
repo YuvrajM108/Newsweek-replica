@@ -20,7 +20,9 @@ img.logo {
   height: 30px;
 }
 
-.nav-text {
+.nav-text,
+.news-heading,
+.big-title {
   font-size: 18px;
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -30,7 +32,8 @@ img.logo {
 }
 
 .cat-text,
-.editions {
+.editions,
+.big-title {
   font-weight: bold;
 }
 
@@ -169,6 +172,30 @@ a.footer-link:hover {
   font-weight: bold;
   color: #999;
   margin-top: 15px;
+}
+
+img.main-story-thumbnail {
+  width: 100%;
+  height: 35vh;
+}
+
+img.top-story {
+  width: 100%;
+  height: 45vh;
+}
+
+h2.big-title {
+  font-size: 24px;
+}
+
+a.article-link {
+  color: black;
+  text-decoration: none;
+}
+
+a.article-link:hover {
+  text-decoration: underline;
+  text-decoration-color: orangered;
 }
 
 @media only screen and (max-width: 768px) {

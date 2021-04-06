@@ -1,3 +1,4 @@
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Newsweek.com Home Page Replica
@@ -19,3 +20,5 @@ In this project, the homepage of the Newsweek website (www.newsweek.com) is repl
 
 - Download the project to your local machine by either downloading a zip folder containing copies of the project files or by using Git to clone the repository to a desired folder on your local machine.
 - Once the you have downloaded a copy of the project on your local machine, open the file named index.html in a browser to test out the webpage.
+
+

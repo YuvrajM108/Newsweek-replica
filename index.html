@@ -15,18 +15,19 @@
 					<h4 class="nav-text date">Wed, Jan 20, 2021</h4>
 				</div>
 				<div class="col-lg-6 col-sm-3">
-					<img class="logo" alt="Newsweek Logo" src="https://upload.wikimedia.org/wikipedia/commons/d/db/Newsweek_Logo.svg">
+					<a class="logo-link" href="#"><img class="logo" alt="Newsweek Logo" src="https://upload.wikimedia.org/wikipedia/commons/d/db/Newsweek_Logo.svg"></a>
 				</div>
 				<div class="col-3 d-flex justify-content-around">
 					<div class="d-flex align-self-center">
-						<a class="login" href="#"><h4 class="nav-text side-link">LOGIN</h4></a>
+						<a class="d-none d-md-inline login" href="#"><button class="nav-text login" type="button">LOGIN</button></a>
+						<button class="login-icon" type="button"><img class="d-inline d-md-none login-icon" src="https://g.newsweek.com/www/images/user-w.svg" alt="login icon"></button>
 					</div>
 					<div class="d-flex align-self-center">
-						<a class="subscribe" href="#"><h4 class="nav-text side-link"><span class="subButton bg-yellow">SUBSCRIBE &gt;</span></h4></a>
+						<a class="subscribe" href="#"><button class="nav-text subscribe" type="button"><span class="subButton bg-yellow">SUBSCRIBE &gt;</span></button></a>
 					</div>
 				</div>
 		</div>
-		<div class="container-fluid d-none d-lg-flex categories">
+		<nav class="container-fluid d-none d-lg-flex categories">
 			<a class="category" href="#"><h4 class="nav-text cat-text">U.S.</h4></a>
 			<a class="category mid-cat" href="#"><h4 class="nav-text cat-text">World</h4></a>
 			<a class="category mid-cat" href="#"><h4 class="nav-text cat-text">Business</h4></a>
@@ -38,11 +39,12 @@
 			<a class="category mid-cat" href="#"><h4 class="nav-text cat-text">The Debate</h4></a>
 			<a class="category mid-cat" href="#"><h4 class="nav-text cat-text">Experts</h4></a>
 			<a class="category mid-cat" href="#"><h4 class="nav-text cat-text">Vantage</h4></a>
-			<a class="search"><img class="searchIcon" alt="Search Icon" src="https://icons-for-free.com/iconfiles/png/512/magnifying+glass+search+zoom+icon-1320196461375500720.png">
-			<h4 class="nav-text search">Search</h4>
-			</a>
-		</div>
-		<div class="container-fluid d-none d-lg-flex topstories">
+			<form class="searchForm">
+			<input class="search" type="text" placeholder="Search">
+			<button type="submit" class="searchButton"><img class="searchIcon" alt="Search Icon" src="https://icons-for-free.com/iconfiles/png/512/magnifying+glass+search+zoom+icon-1320196461375500720.png"></button>
+			</form>
+		</nav>
+		<nav class="container-fluid d-none d-lg-flex topstories">
 			<h4 class="nav-text trending">TRENDING</h4>
 			<a class="topstory" href="#"><h4 class="nav-text trending">JOE BIDEN</h4></a>
 			<a class="topstory" href="#"><h4 class="nav-text trending">DONALD TRUMP</h4></a>
@@ -51,7 +53,7 @@
 			<a class="topstory" href="#"><h4 class="nav-text trending">STIMULUS PACKAGE</h4></a>
 			<a class="topstory" href="#"><h4 class="nav-text trending">VACCINE</h4></a>
 			<a class="topstory" href="#"><h4 class="nav-text trending">CAPITOL RIOTS</h4></a>
-		</div>
+		</nav>
 	</header>
 	<footer class="d-flex flex-column">
 		<div class="container-fluid d-flex justify-content-between top-foot">

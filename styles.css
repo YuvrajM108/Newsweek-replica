@@ -24,34 +24,47 @@ img.logo {
   color: white;
 }
 
-p.side-link,
 .cat-text,
 .editions {
   font-weight: bold;
 }
 
-a.login {
-  display: inline;
+button.login {
+  background-color: #ff0500;
+  border: none;
   color: white;
-  text-decoration: none;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 a.login:hover {
   color: white;
 }
 
+button.login-icon {
+  background-color: #ff0500;
+  border: none;
+}
+
+img.login-icon {
+  width: 35px;
+}
+
 a.subscribe {
-  display: inline;
-  color: black;
   text-decoration: none;
 }
 
-span.subButton {
+button.subscribe {
+  display: inline;
+  color: black;
   background-color: yellow;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+span.subButton {
   padding-left: 5px;
   padding-right: 5px;
-  border-radius: 10px;
 }
 
 .categories,
@@ -59,7 +72,7 @@ span.subButton {
 .top-foot {
   background-color: white;
   padding: 10px;
-  border-bottom: 2px solid #f4f5f6;
+  border-bottom: 2px solid #999;
 }
 
 a.category {
@@ -78,14 +91,27 @@ a.category:hover {
   border-color: #807f84;
 }
 
-.search {
+form.searchForm {
   display: inline;
-  color: #807f84;
-  text-decoration: none;
+}
+
+input.search {
+  display: inline;
+  width: 7vw;
+  height: 35px;
+}
+
+button.searchButton {
+  display: inline;
+  border: none;
+  background-color: white;
+  width: 50px;
+  height: 50px;
 }
 
 .searchIcon {
   width: 40px;
+  padding-right: 10px;
 }
 
 .trending {

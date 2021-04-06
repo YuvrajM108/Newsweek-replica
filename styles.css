@@ -41,10 +41,6 @@ button.login {
   font-weight: bold;
 }
 
-a.login:hover {
-  color: white;
-}
-
 button.login-icon {
   background-color: #ff0500;
   border: none;
@@ -54,13 +50,8 @@ img.login-icon {
   width: 35px;
 }
 
-a.subscribe {
-  text-decoration: none;
-}
-
 button.subscribe {
   display: inline;
-  color: black;
   background-color: yellow;
   border: none;
   border-radius: 10px;
@@ -181,6 +172,10 @@ a.footer-link:hover {
 
   .nav-text {
     font-size: 0.8rem;
+  }
+
+  .humbager_icon {
+    margin-left: 5px;
   }
 
   .mid-cat {

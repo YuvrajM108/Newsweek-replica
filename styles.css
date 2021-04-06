@@ -128,6 +128,49 @@ a.topstory:hover {
   color: #ff0500;
 }
 
+.debate {
+  padding: 20px;
+}
+
+.debate-news img {
+  width: 63px;
+  height: 63px;
+}
+
+.debate-1 {
+  margin: 20px 10px 20px 10px;
+}
+
+.debate-2 {
+  margin: 20px 10px 20px 10px;
+}
+
+.debate-link h2 {
+  font-size: 20px;
+  margin-left: 3px;
+}
+
+.debate-link span {
+  font-size: 14px;
+  margin-left: 3px;
+  color: #6c6b6e;
+}
+
+.debate-news a,
+.debate-news span {
+  text-decoration: none;
+  color: #171718;
+}
+
+.debate-lnk h2 {
+  font-size: 20px;
+}
+
+.debate-news h2:hover {
+  text-decoration: underline;
+  text-decoration-color: orangered;
+}
+
 img.foot-logo {
   width: 250px;
 }

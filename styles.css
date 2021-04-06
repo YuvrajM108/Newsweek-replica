@@ -181,4 +181,8 @@ a.footer-link:hover {
   .mid-cat {
     border: none;
   }
+
+  .social {
+    margin-left: 7vw;
+  }
 }

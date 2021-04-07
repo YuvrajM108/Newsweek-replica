@@ -176,6 +176,16 @@ a.topstory:hover {
   text-decoration-color: orangered;
 }
 
+.opinion-1 {
+  margin: 10px 10px 20px 10px;
+}
+
+.opinion-news a,
+.opinion-news span {
+  text-decoration: none;
+  color: #171718;
+}
+
 img.foot-logo {
   width: 250px;
 }

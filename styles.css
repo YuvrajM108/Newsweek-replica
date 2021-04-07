@@ -128,8 +128,8 @@ a.topstory:hover {
   color: #ff0500;
 }
 
-.debate {
-  padding: 20px;
+.debate-news {
+  padding: 10px;
 }
 
 .debate-news img {
@@ -176,14 +176,40 @@ a.topstory:hover {
   text-decoration-color: orangered;
 }
 
+.opinion {
+  padding: 10px;
+}
+
 .opinion-1 {
   margin: 10px 10px 20px 10px;
+}
+
+.opinion-news {
+  border-bottom: #929096;
+}
+
+.opinion-news img {
+  width: 63px;
+  height: 63px;
+}
+
+.opinion-link {
+  padding-left: 10px;
+}
+
+.opinion-link h2 {
+  font-size: 20px;
 }
 
 .opinion-news a,
 .opinion-news span {
   text-decoration: none;
   color: #171718;
+}
+
+.opinion-news h2:hover {
+  text-decoration: underline;
+  text-decoration-color: orangered;
 }
 
 img.foot-logo {

@@ -118,6 +118,51 @@ button.searchButton {
   padding: 5px;
 }
 
+.sponsored-insight {
+  margin: 200px 10px 20px 10px;
+}
+
+.sponsored-title {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 28px;
+  color: rgb(13, 93, 199);
+  font-weight: bold;
+}
+
+.sponsored-highlight a {
+  text-decoration: none;
+}
+
+.sponsored-highlight {
+  width: 90%;
+  border: solid lightslategrey;
+  border-width: 1px;
+}
+
+.sponsored-highlight h2,
+.sponsored-highlight p {
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.title-highlight h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #171718;
+}
+
+.title-highlight h2:hover {
+  text-decoration: underline;
+  text-decoration-color: orangered;
+}
+
+.highlight {
+  font-size: 18px;
+  color: #6c6b6e;
+  font-weight: 700;
+}
+
 a.topstory {
   color: #807f84;
   text-decoration: none;

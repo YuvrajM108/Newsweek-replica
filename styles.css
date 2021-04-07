@@ -137,12 +137,17 @@ a.topstory:hover {
   height: 63px;
 }
 
+.debate-news {
+  border-top: solid #929096;
+  border-bottom: solid #929096;
+}
+
 .debate-1 {
-  margin: 20px 10px 20px 10px;
+  margin: 10px 10px 20px 10px;
 }
 
 .debate-2 {
-  margin: 20px 10px 20px 10px;
+  margin: 10px 10px 20px 10px;
 }
 
 .debate-link h2 {

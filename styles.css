@@ -128,6 +128,11 @@ a.topstory:hover {
   color: #ff0500;
 }
 
+.news-turn-img img {
+  width: 120px;
+  height: 120px;
+}
+
 .debate-news {
   padding: 10px;
 }

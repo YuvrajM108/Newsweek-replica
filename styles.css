@@ -138,7 +138,7 @@ img.foot-logo {
 img.social-icon {
   width: 25px;
   height: 25px;
-  margin: 0 5px 0 5px;
+  margin: 0 2px 0 2px;
 }
 
 p.editions {
@@ -163,6 +163,12 @@ a.footer-link:hover {
 
 .bottom-foot {
   font-size: 14px;
+}
+
+.top-foot,
+.copyright,
+.bottom-foot {
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 768px) {

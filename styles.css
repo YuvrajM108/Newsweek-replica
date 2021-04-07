@@ -128,6 +128,10 @@ a.topstory:hover {
   color: #ff0500;
 }
 
+.news-culture {
+  margin-bottom: 10px;
+}
+
 .news-culture a {
   font-size: 12px;
   font-family: 'Roboto Condensed', sans-serif;
@@ -135,16 +139,16 @@ a.topstory:hover {
   text-decoration: none;
 }
 
-.news-turn-img caption {
-  font-size: 12px;
+.news-turn-img span {
+  font-size: 18px;
   font-weight: bold;
   color: #171718;
 }
 
 .news-turn-img img {
   width: 100%;
-  height: 120px;
-} 
+  height: 200px;
+}
 
 .top-news-section {
   padding-left: 0;

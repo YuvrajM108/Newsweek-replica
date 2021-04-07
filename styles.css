@@ -139,8 +139,10 @@ a.topstory:hover {
   text-decoration: none;
 }
 
+.small-atcl h2,
 .news-turn-img span {
   font-size: 18px;
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
   color: #171718;
 }
@@ -327,6 +329,30 @@ p.preview {
 .copyright,
 .bottom-foot {
   overflow: hidden;
+}
+
+.more-news,
+.latest-news {
+  margin-top: 5vh;
+}
+
+.small-atcl-img {
+  width: 100px;
+  height: 100px;
+  margin-right: 5px;
+  float: left;
+  object-fit: cover;
+}
+
+.small-atcl {
+  height: 120px;
+  border-top: 1px solid #999;
+  margin-top: 5px;
+  padding-top: 10px;
+}
+
+.small-atcl p {
+  font-size: 14px;
 }
 
 @media only screen and (max-width: 768px) {

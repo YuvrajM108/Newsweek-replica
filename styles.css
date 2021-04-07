@@ -152,9 +152,16 @@ button.searchButton {
   color: #171718;
 }
 
-.title-highlight h2:hover {
-  text-decoration: underline;
-  text-decoration-color: orangered;
+.small-atcl h2,
+.news-turn-img span {
+  font-size: 18px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  color: #171718;
+}
+
+.opinion-link h2 {
+  font-size: 20px;
 }
 
 .highlight {
@@ -184,14 +191,6 @@ a.topstory:hover {
   text-decoration: none;
 }
 
-.small-atcl h2,
-.news-turn-img span {
-  font-size: 18px;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: bold;
-  color: #171718;
-}
-
 .news-turn-img img {
   width: 100%;
   height: 200px;
@@ -204,16 +203,13 @@ a.topstory:hover {
 
 .debate-news {
   padding: 10px;
+  border-top: solid #929096;
+  border-bottom: solid #929096;
 }
 
 .debate-news img {
   width: 63px;
   height: 63px;
-}
-
-.debate-news {
-  border-top: solid #929096;
-  border-bottom: solid #929096;
 }
 
 .debate-1 {
@@ -252,6 +248,11 @@ a.topstory:hover {
   width: 100%;
 }
 
+.title-highlight h2:hover {
+  text-decoration: underline;
+  text-decoration-color: orangered;
+}
+
 .debate-news h2:hover {
   text-decoration: underline;
   text-decoration-color: orangered;
@@ -276,10 +277,6 @@ a.topstory:hover {
 
 .opinion-link {
   padding-left: 10px;
-}
-
-.opinion-link h2 {
-  font-size: 20px;
 }
 
 .opinion-news a,

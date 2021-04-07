@@ -256,6 +256,20 @@ a.article-link:hover {
   text-decoration-color: orangered;
 }
 
+.feature,
+.insight {
+  margin: 25px 0 25px 0;
+}
+
+p.preview {
+  font-size: 15px;
+}
+
+.insight-text {
+  border: 1px solid #999;
+  padding: 12px;
+}
+
 @media only screen and (max-width: 768px) {
   img.logo {
     margin-left: 0;

@@ -320,7 +320,8 @@ a.footer-link:hover {
   margin-top: 15px;
 }
 
-.story-img, .insight-img {
+.story-img,
+.insight-img {
   position: relative;
 }
 

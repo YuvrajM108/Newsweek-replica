@@ -31,17 +31,10 @@ img.logo {
   color: white;
 }
 
-.cat-text,
-.editions,
-.big-title {
-  font-weight: bold;
-}
-
 button.login {
   background-color: #ff0500;
   border: none;
   color: white;
-  font-weight: bold;
 }
 
 button.login-icon {
@@ -58,7 +51,6 @@ button.subscribe {
   background-color: yellow;
   border: none;
   border-radius: 10px;
-  font-weight: bold;
 }
 
 span.subButton {
@@ -114,7 +106,6 @@ button.searchButton {
 }
 
 .trending {
-  font-weight: bold;
   padding: 5px;
 }
 
@@ -126,7 +117,6 @@ button.searchButton {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 28px;
   color: rgb(13, 93, 199);
-  font-weight: bold;
 }
 
 .sponsored-highlight a {
@@ -148,7 +138,6 @@ button.searchButton {
 
 .title-highlight h2 {
   font-size: 28px;
-  font-weight: bold;
   color: #171718;
 }
 
@@ -156,7 +145,6 @@ button.searchButton {
 .news-turn-img span {
   font-size: 18px;
   font-family: 'Roboto Condensed', sans-serif;
-  font-weight: bold;
   color: #171718;
 }
 
@@ -330,6 +318,29 @@ a.footer-link:hover {
   font-weight: bold;
   color: #999;
   margin-top: 15px;
+}
+
+.story-img, .insight-img {
+  position: relative;
+}
+
+.story-img h4,
+.insight-img h4 {
+  position: absolute;
+  font-family: 'Roboto condensed', sans-serif;
+  font-size: 15px;
+  background-color: rgb(240, 232, 232, 0.8);
+  padding: 5px;
+  bottom: 0;
+  left: 0;
+}
+
+.story-img h4 {
+  color: orangered;
+}
+
+.insight-img h4 {
+  color: #3581f4;
 }
 
 img.main-story-thumbnail {

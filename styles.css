@@ -22,8 +22,7 @@ img.logo {
 
 .nav-text,
 .news-heading,
-.big-title,
-.big-cat {
+.big-title {
   font-size: 18px;
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -143,6 +142,7 @@ button.searchButton {
 }
 
 .small-atcl h2,
+.other-sml-story h2,
 .news-turn-img span {
   font-size: 18px;
   font-family: 'Roboto Condensed', sans-serif;
@@ -511,6 +511,20 @@ img.small-logo {
 
 .big-cat:hover {
   color: #f72210;
+}
+
+img.other-lg {
+  width: 100%;
+}
+
+.other-sml-story {
+  margin: 2px 0 5px 0;
+}
+
+.sml-st-mid {
+  border-bottom: 1px solid #999;
+  border-top: 1px solid #999;
+  padding: 5px 0 5px 0;
 }
 
 @media only screen and (max-width: 768px) {

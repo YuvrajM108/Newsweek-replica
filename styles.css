@@ -516,6 +516,7 @@ img.small-logo {
 
 img.other-lg {
   width: 100%;
+  height: 50vh;
 }
 
 .other-sml-story {
@@ -574,7 +575,6 @@ img.other-lg {
 .subscribe-text h3 {
   color: black;
 }
-
 
 @media only screen and (max-width: 768px) {
   img.logo {

@@ -478,7 +478,8 @@ img.mag-story {
   color: #f72210;
 }
 
-.mag-title, .ad-heading {
+.mag-title,
+.ad-heading {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 17px;
 }

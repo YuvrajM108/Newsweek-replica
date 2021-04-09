@@ -527,6 +527,19 @@ img.other-lg {
   padding: 5px 0 5px 0;
 }
 
+.subscribe-container {
+  margin-left: 10px;
+}
+
+.img-container {
+  max-width: 100%;
+  display: block;
+}
+#img-container {
+  background-color: #807f84;
+}
+
+
 @media only screen and (max-width: 768px) {
   img.logo {
     margin-left: 0;

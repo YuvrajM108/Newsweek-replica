@@ -34,6 +34,10 @@ In this project, the homepage of the Newsweek website (www.newsweek.com) is repl
 - HTML
 - CSS with Bootstrap 5
 
+## Live Demo
+
+To see a live demo of the project, click on the following [link](https://yuvrajm108.github.io/Newsweek-replica/)
+
 ## Getting Started:
 
 - Download the project to your local machine by either downloading a zip folder containing copies of the project files or by using Git to clone the repository to a desired folder on your local machine.

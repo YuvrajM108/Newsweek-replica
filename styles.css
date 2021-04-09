@@ -528,16 +528,51 @@ img.other-lg {
   padding: 5px 0 5px 0;
 }
 
-.subscribe-container {
-  margin-left: 10px;
+.newsletter h5 {
+  color: red;
 }
 
-.img-container {
+.img-text-container {
   max-width: 100%;
   display: block;
 }
-#img-container {
-  background-color: #807f84;
+
+#img-text-container {
+  background-color: #bdc2ce;
+}
+
+.subscribe-img-container {
+  height: 250px;
+  width: 50%;
+}
+
+.subscribe-img-container-newsletter {
+  max-width: 100%;
+  margin-right: 20px;
+}
+
+.subscribe-img-container-newsletter img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.subscribe-img-container img {
+  max-width: 100%;
+}
+
+.subscribe-img-container .img2 {
+  position: absolute;
+  left: 80px;
+  top: 20px;
+}
+
+.subscribe-text {
+  max-width: 100%;
+}
+
+.subscribe-text h3 {
+  color: black;
 }
 
 
